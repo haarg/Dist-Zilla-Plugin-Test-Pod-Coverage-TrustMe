@@ -1,0 +1,13 @@
+/MANIFEST.bak
+/Makefile.old
+/Makefile
+/blib/
+/pm_to_blib
+/MYMETA.json
+/MYMETA.yml
+/cover_db/
+/MYMETA.json.lock
+/MANIFEST
+/.build/
+/Dist-Zilla-Plugin-Test-Pod-Coverage-TrustMe-*.tar.gz
+/Dist-Zilla-Plugin-Test-Pod-Coverage-TrustMe-*/
