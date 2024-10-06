@@ -2,16 +2,18 @@ use v5.20;
 use warnings;
 use experimental qw(signatures postderef);
 package Dist::Zilla::Plugin::Test::Pod::Coverage::TrustMe;
-{ use Moose }
 
 our $VERSION = 'v1.0.0';
 
-use Moose::Util::TypeConstraints qw(
-    as
-    role_type
-    subtype
-    coerce
-);
+{
+    use Moose;
+    use Moose::Util::TypeConstraints qw(
+        as
+        role_type
+        subtype
+        coerce
+    );
+}
 use Dist::Zilla::File::InMemory;
 use Data::Dumper ();
 
