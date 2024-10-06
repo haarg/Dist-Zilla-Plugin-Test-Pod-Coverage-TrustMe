@@ -42,7 +42,7 @@ jobs:
         with:
           sources: dist.ini
           phases: author
-          exclude: '^inc::'
+          exclude: Dist::Zilla::Plugin::Test::Pod::Coverage::TrustMe
       - name: Install authordeps
         uses: perl-actions/install-with-cpm@v1
         with:
