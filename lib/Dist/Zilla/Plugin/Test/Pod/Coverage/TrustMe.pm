@@ -6,10 +6,6 @@ package Dist::Zilla::Plugin::Test::Pod::Coverage::TrustMe;
 
 our $VERSION = 'v1.0.0';
 
-use Sub::Exporter::ForMethods;
-use Data::Section 0.200002
-    { installer => Sub::Exporter::ForMethods::method_installer },
-    -setup;
 use Moose::Util::TypeConstraints qw(
     as
     role_type
@@ -17,7 +13,11 @@ use Moose::Util::TypeConstraints qw(
     coerce
 );
 use Dist::Zilla::File::InMemory;
-use Data::Dumper;
+use Data::Dumper ();
+
+use namespace::clean;
+
+use Data::Section 0.200002 -setup;
 
 with (
     'Dist::Zilla::Role::PrereqSource',
@@ -28,8 +28,6 @@ with (
     'Dist::Zilla::Role::FileMunger',
     'Dist::Zilla::Role::TextTemplate',
 );
-
-use namespace::autoclean;
 
 sub mvp_multivalue_args { qw(
     modules
