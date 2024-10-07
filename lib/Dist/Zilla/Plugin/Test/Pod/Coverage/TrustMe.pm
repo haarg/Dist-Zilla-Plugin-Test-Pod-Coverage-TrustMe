@@ -143,7 +143,7 @@ coerce $RegexpOption,
     'ArrayRef[Str]' => sub {
         [
             map {
-                m{\A/(.*)/([msi]*)\z} ? qr/(?$2)$1/
+                m{\A/(.*)/([msi]*)\z} ? ( $2 ? qr/(?$2)$1/ : qr/$1/ )
                                       : qr/\A\Q$_\E\z/
             } @$_
         ];
