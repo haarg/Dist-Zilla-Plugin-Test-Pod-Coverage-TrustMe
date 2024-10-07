@@ -207,7 +207,7 @@ coerce $Options,
         +{
             map s/\A\s+//r,
             map s/\s+\z//r,
-            map split(/=/, $_, 2),
+            map split(/=>?/, $_, 2),
             @$_
         };
     },
