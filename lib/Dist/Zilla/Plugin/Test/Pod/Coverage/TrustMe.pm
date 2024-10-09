@@ -3,7 +3,7 @@ use warnings;
 use experimental qw(signatures postderef);
 package Dist::Zilla::Plugin::Test::Pod::Coverage::TrustMe;
 
-our $VERSION = 'v1.0.0';
+our $VERSION = 'v1.0.1';
 
 {
     use Moose;

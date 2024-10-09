@@ -1,4 +1,6 @@
 Revision history for Perl extension Dist-Zilla-Plugin-Test-Pod-Coverage-TrustMe
 
+{{ $NEXT }}
+
 v1.0.0  2024-10-09
   - initial release
