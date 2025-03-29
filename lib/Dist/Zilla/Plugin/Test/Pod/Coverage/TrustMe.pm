@@ -313,6 +313,10 @@ Dist::Zilla::Plugin::Test::Pod::Coverage::TrustMe - An author test for Pod Cover
 
 =head1 DESCRIPTION
 
+This extension provides a test file to check for Pod coverage using
+L<Test::Pod::Coverage::TrustMe>. It is meant as a replacement for the
+L<[PodCoverageTests]|Dist::Zilla::Plugin::PodCoverageTests> plugin, but
+providing some additional options and using a different underlying test module.
 
 =head1 OPTIONS
 
