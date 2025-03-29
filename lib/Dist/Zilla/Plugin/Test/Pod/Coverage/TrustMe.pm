@@ -49,7 +49,7 @@ sub register_prereqs ($self) {
             type  => 'requires',
             phase => 'develop',
         },
-        'Test::Pod::Coverage::TrustMe' => '0',
+        'Test::Pod::Coverage::TrustMe' => '0.002001',
     );
 }
 
