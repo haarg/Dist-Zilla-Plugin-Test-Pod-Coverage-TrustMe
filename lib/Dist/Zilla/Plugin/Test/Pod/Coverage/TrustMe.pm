@@ -277,8 +277,6 @@ __PACKAGE__->meta->make_immutable;
 
 =encoding UTF-8
 
-=for Pod::Coverage gather_files munge_file mvp_aliases register_prereqs
-
 =head1 NAME
 
 Dist::Zilla::Plugin::Test::Pod::Coverage::TrustMe - An author test for Pod Coverage
@@ -364,6 +362,8 @@ be specified like:
     options = extra_option = 1
 
 =back
+
+=for Pod::Coverage gather_files munge_file mvp_aliases register_prereqs
 
 =cut
 
