@@ -334,7 +334,7 @@ Aliased as C<module>.
 
 =item finder
 
-The L<file finder|https://metacpan.org/pod/Dist::Zilla::Role::FileFinderUser/default_finders>
+The L<file finder|Dist::Zilla::Role::FileFinderUser/default_finders>
 used to find modules to check. Will only be used if a list of modules is not
 given. Defaults to C<:InstallModules>.
 
