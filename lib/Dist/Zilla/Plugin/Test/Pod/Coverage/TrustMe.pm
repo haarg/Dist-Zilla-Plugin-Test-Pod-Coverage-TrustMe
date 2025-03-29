@@ -277,6 +277,8 @@ __PACKAGE__->meta->make_immutable;
 
 =encoding UTF-8
 
+=for :stopwords
+
 =head1 NAME
 
 Dist::Zilla::Plugin::Test::Pod::Coverage::TrustMe - An author test for Pod Coverage
