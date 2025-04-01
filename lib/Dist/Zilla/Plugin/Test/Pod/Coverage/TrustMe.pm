@@ -277,7 +277,7 @@ __PACKAGE__->meta->make_immutable;
 
 =encoding UTF-8
 
-=for :stopwords
+=for :stopwords PodCoverageTests
 
 =head1 NAME
 
